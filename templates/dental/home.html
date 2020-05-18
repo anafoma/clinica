@@ -1,0 +1,128 @@
+{% extends 'dental/base.html' %}
+{% load staticfiles %}
+
+
+
+{% block title_block %}
+Homepage
+{% endblock %}
+
+{% block body_block %}
+    
+
+
+<div id="slider" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#slider" data-slide-to="0" class="active"></li>
+      
+     
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="img"><img class="d-block img-fluid" src="{% static 'images/fondo2.jpg' %}"  alt="First slide"></div>
+        <div class="carousel-caption">
+            
+            <h1 >Centro Dental Andratx </h1>
+           
+
+        </div>
+      </div>
+     
+      </div>
+     
+    </div>
+    <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+
+  </div>
+
+
+    <div class="container-fluid ">
+        <div class="row text-center padding">
+            <div class="col-12 fade-in">
+                    <div id="amigable"><h1>Tratamientos dentales por parte de tu amigable </h1><h1>clinica local.</h1></div>        
+            
+
+            </div>
+        </div>
+    </div>
+
+<!--Info General-->
+
+<div id="pad">
+<div class="container-fluid padding">
+<div class="row text-left padding">
+    <div class="col-xs-12 col-sm-6 col-md-4 fade-in" >
+        
+        <hr class="light">
+        <h4>1. Primera visita gratis</h4>
+        <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar odio vitae est euismod, vel mattis metus iaculis. In porta imperdiet sem dignissim feugiat. Pellentesque a tellus velit. 
+        </p>
+        
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 fade-in" >        
+        <hr class="light">
+        <h4>2. Financiacion a tu medida</h4>
+        <p class="lead">
+            Vestibulum et erat ex. Nulla vitae malesuada enim. Morbi congue enim ante. Fusce vehicula magna interdum pulvinar molestie. Nulla facilisi. Sed non massa mattis, commodo lacus quis, molestie nisi. 
+        </p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 fade-in" >        
+        <hr class="light">
+        <h4>3. Calidad y Experiencia</h4>
+        <p class="lead">
+            Vestibulum et erat ex. Nulla vitae malesuada enim. Morbi congue enim ante. Fusce vehicula magna interdum pulvinar molestie. Nulla facilisi. Sed non massa mattis, commodo lacus quis, molestie nisi. 
+        </p>
+    </div>
+</div>
+</div>
+</div>
+
+<!--Fixed Image-->
+
+<figure>
+    <div class="fixed-wrap">
+        <div id="fixed">
+            <img src="{% static 'images/castillo3.png' %}">
+        </div>
+    </div>
+</figure>
+
+
+
+
+<!--Info Doctor-->
+
+<div id="doctor">
+<div class="container-fluid padding">
+<div class="row padding">
+    <b></b>
+    <b></b>
+        <div class="col-md-12 col-lg-8 fade-in">
+            <b></b>
+
+        
+            
+            <h2>Dr. Ricardo Forero</h2>
+            <p class="lead " >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar odio vitae est euismod, vel mattis metus iaculis. In porta imperdiet sem dignissim feugiat. Pellentesque a tellus velit. Suspendisse elementum varius lorem a sollicitudin. Nullam nec nulla lobortis, iaculis arcu vel, imperdiet libero. Aenean in dapibus nunc. 
+            </p>
+            <p class="lead">
+                Vestibulum et erat ex. Nulla vitae malesuada enim. Morbi congue enim ante. Fusce vehicula magna interdum pulvinar molestie. Nulla facilisi. Sed non massa mattis, commodo lacus quis, molestie nisi. Nunc consequat porta lacus, ac vulputate nisl eleifend vitae. Vivamus tempus tortor consequat massa suscipit tincidunt. 
+            </p>
+            
+        </div>
+    
+        <div class="col-lg-4">
+            <img src="{% static 'images/papa.jpeg' %}" class="img-fluid" >
+</div>
+      
+    
+</div>
+</div>
+</div>
+</div>
+{% endblock %}

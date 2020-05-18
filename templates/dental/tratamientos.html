@@ -1,0 +1,339 @@
+{% extends 'dental/base.html' %}
+{% load staticfiles %}
+
+
+{% block title_block %}
+Tratamientos
+{% endblock %}
+
+{% block body_block %}
+
+<div id="slider" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#slider" data-slide-to="0" class="active"></li>
+     
+    </ol>
+    <div class="carousel-inner2">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="{% static 'images/fondo3.jpg' %}" alt="First slide">
+        <div class="carousel-caption">
+            <h1 class="display-2"><strong>Tratamientos</strong> </h1>
+            
+        </div>
+      </div>
+
+  </div>
+</div>
+<section class="treatment-area">
+    <div class="container">
+      
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 fade-in">
+                <div class="treatment-single">
+                    <div class="content-area">
+                        <div class="side-one">
+                            
+                                
+                                    <div class="img-area">
+                                        <img src="{% static 'images/implante.jpg' %}" alt="" >
+                                        <div class="inside">Implantes</div>
+                                            
+                                       
+                                     </div>    
+                                        
+
+                        </div>
+                        <div class="side-two">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4>Implantologia</h4>
+
+                                    <p>
+                                        El implante dental es un producto sanitario diseñado para sustituir la raíz del diente que 
+                                        falta y mantener el diente artificial en su sitio.   
+                                    </p>
+                              
+
+                                </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 fade-in">
+                    <div class="treatment-single">
+                        <div class="content-area">
+                            <div class="side-one">
+                                
+                                    
+                                        <div class="img-area">
+                                            <img src="{% static 'images/escudo.jpg' %}" alt="" >
+                                            <div class="inside">Odontología Conservadora</div>
+                                         </div>    
+                                            
+    
+                            </div>
+                            <div class="side-two">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4>Odontología Conservador</h4>
+                                        <p>
+                                            Consiste en prevenir enfermedades y hacer un diagnóstico precoz, empastes de dientes ya con caries y reconstrucciones de grandes caries.  
+                                        </p>
+                                  
+    
+                                    </div>
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 fade-in">
+                        <div class="treatment-single">
+                            <div class="content-area">
+                                <div class="side-one">
+                                    
+                                        
+                                            <div class="img-area">
+                                                <img src="{% static 'images/blanco.jpg' %}" alt="" >
+                                                <div class="inside">Blanqueamiento</div>
+                                                    
+                                               
+                                             </div>    
+                                                
+        
+                                </div>
+                                <div class="side-two">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4>Estética y Blanqueamiento</h4>
+                                            <p>
+                                                Soluciona problemas relacionados con la armonía estética de la boca en su totalidad. 
+
+                                                Con el blanqueamineto conseguira reducir varios tonos el color original del diente, dejándolos más blancos y brillantes. Este tratamiento debe ser prescrito por un odontólogo.
+                                            </p>
+                                      
+        
+                                        </div>
+        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 fade-in">
+                            <div class="treatment-single">
+                                <div class="content-area">
+                                    <div class="side-one">
+                                        
+                                            
+                                                <div class="img-area">
+                                                    <img src="{% static 'images/ortodoncia.jpg' %}" alt="" >
+                                                    <div class="inside">Ortodoncia</div>
+                                                        
+                                                   
+                                                 </div>    
+                                                    
+            
+                                    </div>
+                                    <div class="side-two">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <h4>Ortodoncia</h4>
+                                                <p>
+                                                    Corrige los defectos y las irregularidades de la posición de los dientes. Existen diferentes métodos, algunos de ellos usan retenedores prácticamente invisibles.
+                                                </p>
+                                          
+            
+                                            </div>
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 fade-in">
+                                <div class="treatment-single">
+                                    <div class="content-area">
+                                        <div class="side-one">
+                                            
+                                                
+                                                    <div class="img-area">
+                                                        <img src="{% static 'images/sonido.jpg' %}" alt="" >
+                                                        <div class="inside">ATM Bruxismo</div>
+                                                            
+                                                       
+                                                     </div>    
+                                                        
+                
+                                        </div>
+                                        <div class="side-two">
+                                            <div class="card">
+                                                <div class="card-body text-center mt-4">
+                                                    <h4>ATM Bruxismo</h4>
+                                                    <p>
+                                                        Es el hábito involuntario de apretar o rechinar los dientes, dañando la articulación temporo-mandibular. Afecta al 20% de la población y puede conllevar dolor de cabeza, muscular, mandibular, cuello y oído, además de desgastar los dientes. El tratamiento consiste en la colocación de una férula de descarga. 
+                                                    </p>
+                                              
+                
+                                                </div>
+                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 fade-in">
+                                        <div class="treatment-single">
+                                            <div class="content-area">
+                                                <div class="side-one">
+                                                    
+                                                        
+                                                            <div class="img-area">
+                                                                <img src="{% static 'images/raiz.jpg' %}" alt="" >
+                                                                <div class="inside">Endodoncia</div>
+                                                                    
+                                                               
+                                                             </div>    
+                                                                
+                        
+                                                </div>
+                                                <div class="side-two">
+                                                    <div class="card">
+                                                        <div class="card-body text-center mt-4">
+                                                            <h4>Endodoncia</h4>
+                                                            <p>
+                                                                Es el tratamiento de los conductos de la raíz del diente, consiste en la extirpación de la pulpa dental y en el posterior relleno y sellado de la cavidad.
+                                                            </p>
+                                                      
+                        
+                                                        </div>
+                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 fade-in">
+                                            <div class="treatment-single">
+                                                <div class="content-area">
+                                                    <div class="side-one">
+                                                        
+                                                            
+                                                                <div class="img-area">
+                                                                    <img src="{% static 'images/burbuja.jpg' %}" alt="" >
+                                                                    <div class="inside">Odontopediatría</div>
+                                                                        
+                                                                   
+                                                                 </div>    
+                                                                    
+                            
+                                                    </div>
+                                                    <div class="side-two">
+                                                        <div class="card">
+                                                            <div class="card-body text-center mt-4">
+                                                                <h4>Odontopediatría</h4>
+                                                                <p>
+                                                                    Es la rama de la odontología encargada de tratar a los niños. Explora y trata a niños y recién nacidos, se encarga de detectar precozmente posibles anomalías o malposiciones de los dientes para remitir al ortodoncista.
+                                                                    En nuestra clínica tenemos el programa PADI. Que da consulta y tratamiento a pacientes a partir de los 6 años hasta los 15.
+
+                                                                </p>
+                                                          
+                            
+                                                            </div>
+                            
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            
+                                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 fade-in">
+                                            <div class="treatment-single">
+                                                <div class="content-area">
+                                                    <div class="side-one">
+                                                        
+                                                            
+                                                                <div class="img-area">
+                                                                    <img src="{% static 'images/funda.jpg' %}" alt="" >
+                                                                    <div class="inside">Prótesis Dental</div>
+                                                                        
+                                                                   
+                                                                 </div>    
+                                                                    
+                            
+                                                    </div>
+                                                    <div class="side-two">
+                                                        <div class="card">
+                                                            <div class="card-body text-center mt-4">
+                                                                <h4>Prótesis Dental</h4>
+                                                                <p>
+                                                                    Es un elemento destinado a reponer piezas dentarias ausentes. Existen varios tipos de prótesis, removible (el paciente puede retirarlas de la boca y volverlas a colocar por si mismo) y no removible o fija (sólo las puede colocar y extraer el odontólogo).
+
+                                                                </p>
+                                                          
+                            
+                                                            </div>
+                            
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            
+                                        <div class="col-xs-12 col-sm-6 col-md-6  col-lg-4 fade-in">
+                                            <div class="treatment-single">
+                                                <div class="content-area">
+                                                    <div class="side-one">
+                                                        
+                                                            
+                                                                <div class="img-area">
+                                                                    <img src="{% static 'images/coso.jpg' %}" alt="" >
+                                                                    <div class="inside">Periodoncia</div>
+                                                                        
+                                                                   
+                                                                 </div>    
+                                                                    
+                            
+                                                    </div>
+                                                    <div class="side-two">
+                                                        <div class="card">
+                                                            <div class="card-body text-center mt-4">
+                                                                <h4>Periodoncia</h4>
+                                                                <p>
+                                                                    La periodoncia estudia la prevención, diagnóstico y tratamiento de las enfermedades que afectan a las encías. Las enfermedades periodontales son la gingivitis (inflamación y sangrado de la encía sin afectar el hueso) y la periodontitis (donde existe destrucción del hueso).
+
+                                                                </p>
+                                                          
+                            
+                                                            </div>
+                            
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            
+    </div>
+</div>
+</section>
+{% endblock %}
